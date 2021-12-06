@@ -1,5 +1,14 @@
 package main
 
+/*
+Convert hex to base64
+
+The string(hex represenatation of): 45df
+
+Should produce:
+Rd8=
+*/
+
 import (
 	"encoding/base64"
 	"encoding/hex"
